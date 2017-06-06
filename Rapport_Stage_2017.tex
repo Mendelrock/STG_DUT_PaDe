@@ -3,6 +3,7 @@
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage{babel}
+\usepackage{background}
 
 \title{Rapport de Stage}
 \author{Jean-Baptiste Aubry}
@@ -11,21 +12,20 @@
 
 \maketitle
 
-\begin{abstract}
-    Résumé
-\end{abstract}
+\pagebreak
 
-\section{Sommaire}
+\include{./resume.tex}
 
-\section{L'entreprise}
+\section*{Sommaire}
 
-\section{Travail effectué}
+\include{./introduction}
+\include{./entreprise}
+\include{./travail}
+\include{./conclusion}
 
-\section{Conclusion}
+\appendix
 
-\section{Bibliographie}
-
-\section{Annexes}
+\include{./appendix}
 
 \tableofcontents
 
